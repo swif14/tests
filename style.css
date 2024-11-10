@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Heebo";
+    src: url("fonts/Heebo-VariableFont_wght.ttf");
+   }
+
+   body {
+    font-family: "Heebo";
+   }
+
+   .h11 {
+   margin-left: 30px;
+   font-size: 44px;
+   font-weight: 700;
+   line-height: 60px;
+   text-align: left;
+   }
+
+   .link-offset-2 {
+    margin-right: 294px;
+   }
+
+   .ptag1 {
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.5px;
+    text-align: left;
+   }
+
+   .button {
+    width: 208px;
+    height: 47px;
+    border-radius: 2px ;
+    border: 0;
+    background-color: #FF6464;
+    color: white;
+    margin-left: 30px;
+    margin-top: 20px;
+   }
+
+   .divi {
+    display: flex;
+   }
+
+   .mt-4 {
+    color: #21243D;
+   }
+
+   .button1 {
+    background-color: #142850;
+    width: 62px;
+    height: 25px;
+    border-radius: 16px ;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+   }
+
+   .footer {
+    display: flex;
+    justify-content: space-around;
+   }
+
+   .h23 {
+    font-size: 26px;
+   }
+
+   .h24 {
+    font-size: 26px;
+   }
+
+
+   @media  screen and (max-width:768px) {
+
+   @font-face {
+    font-family:"Heebo" ;
+    src: url("fonts/Heebo-VariableFont_wght.ttf");
+   }
+    
+    .h11 {
+        margin-left: 40px;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+    }
+    .ptag2 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.5px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-top: 10px;
+
+    }
+
+    .h23 {
+        font-size: 22px;
+    }
+
+    .test{
+        font-size: 16px;
+       }
+
+    .bg1 {
+        background-color: white;
+    }
+
+    .img1 {
+        width: 100%;
+    
+        border-radius: 6px;
+    }
+     .ptag1 {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23.5px;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-align: center;
+     }
+
+     .test2 {
+        margin-left: 70px;
+        margin-top: 20px;
+     }
+
+     .button {
+        margin-left: 70px;
+     }
+
+     .test3 {
+        margin-left: 90px;
+     }
+    }
+
+   
